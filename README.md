@@ -45,7 +45,8 @@
         color="#ffffff"
         width="6">
       </a-text>
-      <a-entity id="jugador" position="0 0 0">
+   
+   <a-entity id="jugador" position="0 0 0">
   <a-camera
     position="0 1.6 0"
     wasd-controls="enabled: false">
