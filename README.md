@@ -44,10 +44,7 @@
   <a-asset-item id="silla" src="activos\silla.glb"></a-asset-item>
 </a-assets>
 <a-entity
-  <gltf-model="#silla"
-    position="1 1 -5"
-    rotation="0 0 0"
-    scale="1 1 1">
+  <gltf-model="#silla" position="1 1 -5" rotation="0 0 0" scale="1 1 1">
 </a-entity>      
     </a-scene>
   </body>
