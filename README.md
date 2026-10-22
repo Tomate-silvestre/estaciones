@@ -18,7 +18,7 @@
         height="30"
         color="#ec0c0c">
     
-  <mover-con-click
+  mover-con-click
   position="0 0 -4"
   rotation="-90 0 0"
   width="30"
@@ -45,15 +45,9 @@
         color="#ffffff"
         width="6">
       </a-text>
-   
-   <a-entity id="jugador" position="0 0 0">
-  <a-camera
-    position="0 1.6 0"
-    wasd-controls="enabled: false">
-  </a-camera>
-</a-entity>
+         <a-camera position="0 1.6 0"></a-camera>
 
     
-  </a-scene>
+    </a-scene>
   </body>
 </html>
