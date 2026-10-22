@@ -43,7 +43,7 @@
   <a-assets>
   <a-asset-item
     id="silla"
-    src="./activos/silla.glb">
+    src=".C:\activos\silla.glb">
   </a-asset-item>
 </a-assets>
 <a-entity
