@@ -40,7 +40,7 @@
       </a-text>
          <a-camera position="0 1.6 0"></a-camera>
 
-      <a-assets>
+  <a-assets>
   <a-asset-item
     id="locomotora"
     src="./activos/locomotora.glb">
@@ -48,9 +48,9 @@
 </a-assets>
 <a-entity
   <gltf-model="#locomotora"
-  position="0 10 -5"
-  rotation="0 0 0"
-  scale="1 1 1">
+    position="0 10 -5"
+    rotation="0 0 0"
+    scale="1 1 1">
 </a-entity>      
     </a-scene>
   </body>
