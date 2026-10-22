@@ -42,12 +42,12 @@
 
       <a-assets>
   <a-asset-item
-    id="Sharp V3 · Balanced 3D model"
-    src="./activos/Sharp V3 · Balanced 3D model.glb">
+    id="locomotora"
+    src="./activos/locomotora.glb">
   </a-asset-item>
 </a-assets>
 <a-entity
-  <gltf-model="#Sharp V3 · Balanced 3D model"
+  <gltf-model="#locomotora"
   position="0 0 -5"
   rotation="0 0 0"
   scale="1 1 1">
