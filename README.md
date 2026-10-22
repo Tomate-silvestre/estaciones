@@ -17,6 +17,13 @@
         width="30"
         height="30"
         color="#ec0c0c">
+    
+  <mover-con-click
+  position="0 0 -4"
+  rotation="-90 0 0"
+  width="30"
+  height="30"
+  color="#81B978">
       </a-plane>
       <a-box position="-1 0.5 -3" color="#a51285"
       animation__click="property: rotation; from: 0 0 0; to: 0 360 0; dur: 1000; startEvents: click" animation__enter="property: scale; to: 1.2 1.2 1.2; dur: 200; startEvents: mouseenter" animation__leave="property: scale; to: 1 1 1; dur: 200; startEvents: mouseleave">
@@ -38,9 +45,14 @@
         color="#ffffff"
         width="6">
       </a-text>
-         <a-camera position="0 1.6 0"></a-camera>
+      <a-entity id="jugador" position="0 0 0">
+  <a-camera
+    position="0 1.6 0"
+    wasd-controls="enabled: false">
+  </a-camera>
+</a-entity>
 
     
-    </a-scene>
+  </a-scene>
   </body>
 </html>
