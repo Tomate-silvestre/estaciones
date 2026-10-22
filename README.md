@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <a-scene>
+    <a-scene cursor="rayOrigin: mouse">
      <a-sky color="#f10ede"></a-sky>
       <a-plane
         position="0 0 -4"
