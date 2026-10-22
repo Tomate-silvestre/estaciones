@@ -47,7 +47,7 @@
   </a-asset-item>
 </a-assets>
 <a-entity
-  gltf-model="#Sharp V3 · Balanced 3D model"
+  <gltf-model="#Sharp V3 · Balanced 3D model"
   position="0 0 -5"
   rotation="0 0 0"
   scale="1 1 1">
