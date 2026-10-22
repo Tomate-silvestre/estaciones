@@ -21,7 +21,7 @@
       <a-box
         position="-1 0.5 -3"
         rotation="0 35 0"
-        color="#67098b">
+        color="#67098b"animation__click="property: rotation;from: 0 0 0; to: 0 360 0;dur: 1000; startEvents: click">
       </a-box>
         <a-sphere
         position="1 1.2 -4"
