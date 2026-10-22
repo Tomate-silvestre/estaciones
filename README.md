@@ -40,7 +40,7 @@
       </a-text>
          <a-camera position="0 1.6 0"></a-camera>
 
-  <a-assets>
+<a-assets>
   <a-asset-item id="silla" src="activos\silla.glb"></a-asset-item>
 </a-assets>
 <a-entity
