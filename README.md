@@ -48,7 +48,7 @@
 </a-assets>
 <a-entity
   <gltf-model="#silla"
-    position="2 0 -5"
+    position="0 0 -5"
     rotation="0 0 0"
     scale="1 1 1">
 </a-entity>      
