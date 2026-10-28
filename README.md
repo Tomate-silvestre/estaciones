@@ -10,7 +10,8 @@
 
   <body>
     <a-scene cursor="rayOrigin: mouse">
-    <a-assets>
+    
+  <a-assets>
     <a-asset-item
       id="modelo-silla"
       src="./activos/silla.glb">
