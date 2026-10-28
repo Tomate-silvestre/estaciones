@@ -25,22 +25,22 @@
     scale="1 1 1">
   </a-entity>
 
-  <a-sky color="#f10ede"></a-sky>
+  <a-sky color="#3cbff3"></a-sky>
       <a-plane
         position="0 0 -4"
         rotation="-90 0 0"
         width="30"
         height="30"
-        color="#ec0c0c">
+        color="#73e3f7">
     
    </a-plane>
-      <a-box position="-1 0.5 -3" color="#a51285"
+      <a-box position="-1 0.5 -3" color="#fcfbfb"
       animation__click="property: rotation; from: 0 0 0; to: 0 360 0; dur: 1000; startEvents: click" animation__enter="property: scale; to: 1.2 1.2 1.2; dur: 200; startEvents: mouseenter" animation__leave="property: scale; to: 1 1 1; dur: 200; startEvents: mouseleave">
       </a-box>
         <a-sphere
         position="1 1.2 -4"
         radius="0.7"
-        color="#1a9c0f"
+        color="#cde213"
         animation="property: position;
                    to: 1 2 -4;
                    dir: alternate;
