@@ -12,10 +12,12 @@
     <a-scene cursor="rayOrigin: mouse">
     
   <a-assets>
-    <a-asset-item
-      id="modelo-silla"
-      src="activos/silla.glb">
-    </a-asset-item>
+  <a-asset-item id="silla" src="activos/silla.glb">
+   </a-asset-item>
+   <audio id="campana" src="activos/campana.mp3">
+   </audio>
+   <audio id="golpe" src="activos/golpe.mp3">
+   </audio>
   </a-assets>
 
   <a-entity
