@@ -24,7 +24,7 @@
     scale="1 1 1">
   </a-entity>
 
-     <a-sky color="#f10ede"></a-sky>
+  <a-sky color="#f10ede"></a-sky>
       <a-plane
         position="0 0 -4"
         rotation="-90 0 0"
