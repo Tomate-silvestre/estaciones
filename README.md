@@ -14,7 +14,7 @@
   <a-assets>
     <a-asset-item
       id="modelo-silla"
-      src="./activos/silla.glb">
+      src="activos/silla.glb">
     </a-asset-item>
   </a-assets>
 
