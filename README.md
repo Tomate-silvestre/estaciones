@@ -10,6 +10,20 @@
 
   <body>
     <a-scene cursor="rayOrigin: mouse">
+      <a-assets>
+    <a-asset-item
+      id="modelo-silla"
+      src="./activos/silla.glb">
+    </a-asset-item>
+  </a-assets>
+
+  <a-entity
+    gltf-model="#modelo-silla"
+    position="0 0 -3"
+    rotation="0 0 0"
+    scale="1 1 1">
+  </a-entity>
+
      <a-sky color="#f10ede"></a-sky>
       <a-plane
         position="0 0 -4"
