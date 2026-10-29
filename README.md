@@ -37,7 +37,8 @@
     
    </a-plane>
       <a-box position="-1 0.5 -3" color="#fcfbfb"
-      animation__click="property: rotation; from: 0 0 0; to: 0 360 0; dur: 1000; startEvents: click" animation__enter="property: scale; to: 1.2 1.2 1.2; dur: 200; startEvents: mouseenter" animation__leave="property: scale; to: 1 1 1; dur: 200; startEvents: mouseleave">
+      animation__click="property: rotation; from: 0 0 0; to: 0 360 0; dur: 1000; startEvents: click" animation__enter="property: scale; to: 1.2 1.2 1.2; dur: 200; startEvents: mouseenter" animation__leave="property: scale; to: 1 1 1; dur: 200; startEvents: mouseleave"
+      sound="src: #campana; on: click; positional: true">
       </a-box>
         <a-sphere
         position="1 1.2 -4"
