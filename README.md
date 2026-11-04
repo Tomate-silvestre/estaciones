@@ -12,16 +12,12 @@
     <a-scene cursor="rayOrigin: mouse">
     
   <a-assets>
-  <a-asset-item id="silla" src="activos/silla.glb">
+  <a-asset-item id="rueda" src="webaditas/rueda.glb">
    </a-asset-item>
-   <audio id="campana" src="activos/campana.mp3">
-   </audio>
-   <audio id="golpe" src="activos/golpe.mp3">
-   </audio>
   </a-assets>
 
   <a-entity
-    gltf-model="#silla" position="0 0 -3" rotation="0 0 0" scale="1 1 1">
+    gltf-model="#rueda" position="0 0 -3" rotation="0 0 0" scale="1 1 1">
   </a-entity>
 
   <a-sky color="#3cbff3"></a-sky>
