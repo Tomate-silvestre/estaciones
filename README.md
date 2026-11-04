@@ -13,7 +13,6 @@
     
   <a-assets>
   <a-asset-item id="silla" src="activos/silla.glb">
-  <a-asset-item id="vagonpordentro1" src="activos/vagonpordentro1.glb">
    </a-asset-item>
    <audio id="campana" src="activos/campana.mp3">
    </audio>
